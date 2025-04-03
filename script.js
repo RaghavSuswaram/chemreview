@@ -6,8 +6,8 @@ const questions = [
         explanation: "Water consists of two hydrogen atoms and one oxygen atom."
     },
     {
-        question: "What is the strongest type of intermolecular force?",
-        options: ["London-Dispersion forces", "Hydrogen Bonding","Ion-Dipole forces","Dipole-Dipole"],
+        question: "What is the strongest type of intermolecular force from the following?",
+        options: ["London-Dispersion forces", "Hydrogen Bonding","idiot guy","Dipole-Dipole"],
         correctAnswer: "Hydrogen Bonding",
         explanation: "Hydrogen bonding is the strongest as it involves an extremly polar bond from a hydrogen atom with a highly electronegative atom, such as O,N, or F."
     },
