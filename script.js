@@ -1,8 +1,8 @@
 const questions = [
     {
         question: "What is the chemical symbol for water?",
-        options: ["H2O", "CO2", "O2", "N2"],
-        correctAnswer: "H2O",
+        options: ["H1O", "CO2", "O2", "N2"],
+        correctAnswer: "H1O",
         explanation: "Water consists of two hydrogen atoms and one oxygen atom."
     },
     {
