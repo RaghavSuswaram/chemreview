@@ -12,10 +12,10 @@ const questions = [
         explanation: "Hydrogen bonding is the strongest as it involves an extremly polar bond from a hydrogen atom with a highly electronegative atom, such as O,N, or F."
     },
     {
-        question: "CaF2(s) ←→ Ca2+(aq) + 2F −(aq)  ΔH> 0 Dissolution of the slightly soluble salt CaF2 is  shown by the equation above. Which of the following changes will decrease [Ca2+] in a saturated solution of CaF2 , and why? (Assumethat after each change some CaF2(s) remains incontact with the solution.",
+        question: "CaF2(s) ←→ Ca2+(aq) + 2F −(aq)  ΔH> 0 Dissolution of the slightly soluble salt CaF2 is  shown by the equation above. Which of the following changes will decrease [Ca2+] in a saturated solution of CaF2 , and why? Assume that after each change some CaF2(s) remains incontact with the solution.",
         options:["Allowing some of the water to evaporate from the solution, because more CaF 2(s) will precipitate","Adding 0.1 M HNO3(aq), because some F−(aq) ions will become protonated","Adding 0.1 M NaNO3(aq), because additional liquid will dilute the solution","Adding NaF(s), because the reaction will proceed toward reactants"], 
-        correctAnswer: "Adding NaF(s), because the reaction will proceed toward reactant",
-        explanation: "Adding NaF would cause the F ions to have thier concentrations increased, and due to the le Chatliers Principle the reaction would shift the opposite direction to reduce the concentration of F to go back to equillibrium, decreasing the concetration of Ca2+ in the process."
+        correctAnswer: "Adding NaF(s), because the reaction will proceed toward reactants",
+        explanation: "Adding NaF would cause the F ions to have their concentrations increased, and due to the le Chatliers Principle the reaction would shift the opposite direction to reduce the concentration of F to go back to equillibrium, decreasing the concetration of Ca2+ in the process."
     },
     // Add up to 60 questions...
 ];
