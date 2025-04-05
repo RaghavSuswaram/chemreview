@@ -45,6 +45,8 @@ function loadQuestion() {
     });
 
     document.getElementById("explanation").innerText = "";
+    document.getElementById("submit-btn").disabled = false;
+
 }
 
 function checkAnswer() {
@@ -54,6 +56,7 @@ function checkAnswer() {
         alert("Please select an answer!");
         return;
     }
+		    document.getElementById("submit-btn").disabled = true;
 
     const questionObj = questions[currentQuestionIndex];
     const explanationElement = document.getElementById("explanation");
