@@ -15,14 +15,21 @@ body {
 }
 
 #startBtn, #submitBtn, #nextBtn {
-  margin-top: 1rem;
-  padding: 1.25rem 3rem;   /* bigger buttons */
-  font-size: 1.25rem;     /* bigger text */
+  margin-top: 1.5rem;
+  padding: 1.8rem 4rem;      
+  font-size: 1.6rem;       
+  font-weight: bold;
+  min-width: 200px;          
   border: none;
   background-color: steelblue;
   color: white;
-  border-radius: 5px;
+  border-radius: 8px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#startBtn:hover, #submitBtn:hover, #nextBtn:hover {
+  background-color: #1e4f8a;  
 }
 
 #options {
