@@ -16,7 +16,8 @@ body {
 
 #startBtn, #submitBtn, #nextBtn {
   margin-top: 1rem;
-  padding: 0.75rem 2rem;
+  padding: 1.25rem 3rem;   /* bigger buttons */
+  font-size: 1.25rem;     /* bigger text */
   border: none;
   background-color: steelblue;
   color: white;
@@ -24,10 +25,25 @@ body {
   cursor: pointer;
 }
 
+#options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* centers the labels container */
+  margin-top: 1rem;
+}
+
 #options label {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;  /* center the label content */
   margin: 0.5rem 0;
-  text-align: left;
+  width: 100%;
+  max-width: 400px;
+  cursor: pointer;
+}
+
+#options input[type="radio"] {
+  margin-right: 10px;
 }
 
 #scoreCount {
