@@ -55,33 +55,92 @@ body {
     width: 80%;
     max-width: 700px;
     margin: auto;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.1);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-button {
-    background: #28a745;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    margin-top: 10px;
+#quiz-container h1 {
+    font-weight: 700;
+    color: #145d8c;
+    margin-bottom: 20px;
+}
+
+#quiz-container h2 {
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Options Styling */
+#options {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+
+#options label {
+    display: block;
+    background-color: #e9f0fb;
+    border-radius: 8px;
+    padding: 12px 15px;
+    margin-bottom: 10px;
     cursor: pointer;
-    border-radius: 5px;
-    font-size: 1em;
+    transition: background-color 0.25s ease;
+    user-select: none;
+    border: 2px solid transparent;
+}
+
+#options input[type="radio"] {
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+#options label:hover {
+    background-color: #d1dffb;
+}
+
+#options input[type="radio"]:checked + span,
+#options input[type="radio"]:checked + label {
+    background-color: #a6c8ff;
+    border-color: #4a90e2;
+}
+
+/* Submit Button */
+#submit-btn {
+    background-color: #28a745;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    font-size: 1.1em;
+    border-radius: 8px;
+    cursor: pointer;
     transition: background-color 0.3s ease;
+    box-shadow: 0 4px 15px rgba(40, 167, 69, 0.6);
 }
 
-button:hover {
-    background: #218838;
+#submit-btn:hover:enabled {
+    background-color: #218838;
 }
 
-p {
-    font-size: 18px;
+#submit-btn:disabled {
+    background-color: #8bd18b;
+    cursor: default;
+    box-shadow: none;
 }
 
+/* Explanation & Score */
 #explanation {
     font-style: italic;
-    margin-top: 10px;
+    margin-top: 15px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+#score-tracker {
+    font-weight: 700;
+    margin-top: 25px;
+    font-size: 1.2em;
+    color: #145d8c;
 }
