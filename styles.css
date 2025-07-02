@@ -2,20 +2,63 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     background-color: #f4f4f4;
-    padding: 100px;
+    padding: 100px 20px;
+    margin: 0;
 }
 
+/* Start Section Styling */
 #start-section {
+    background: linear-gradient(135deg, #4a90e2, #145d8c);
+    color: white;
+    padding: 100px 20px;
+    border-radius: 15px;
+    width: 400px;
+    margin: 100px auto;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+#start-section h1 {
+    font-size: 3em;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+#start-section .subtitle {
+    font-size: 1.25em;
+    margin-bottom: 30px;
+    opacity: 0.85;
+    line-height: 1.4;
+}
+
+#start-button {
+    background-color: #ff6f61;
+    border: none;
+    color: white;
+    font-size: 1.3em;
+    padding: 15px 40px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 12px rgba(255,111,97,0.6);
+}
+
+#start-button:hover {
+    background-color: #ff3b24;
+    box-shadow: 0 6px 18px rgba(255,59,36,0.8);
+}
+
+/* Quiz Section Styling */
 #quiz-container {
     background: white;
     width: 80%;
+    max-width: 700px;
     margin: auto;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 button {
@@ -26,6 +69,8 @@ button {
     margin-top: 10px;
     cursor: pointer;
     border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
