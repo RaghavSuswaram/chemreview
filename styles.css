@@ -1,59 +1,65 @@
 body {
-  background: #eee;
-  font-family: sans-serif;
-  padding: 2rem;
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  padding: 50px 20px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#start-section, #quiz-container {
+  background-color: white;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  max-width: 500px;
+  width: 100%;
   text-align: center;
 }
 
-.section {
-  margin: 3rem auto;
-  padding: 2rem;
-  background: white;
-  border: 1px solid #ccc;
-  max-width: 600px;
-  border-radius: 10px;
+h1 {
+  margin-bottom: 10px;
+  color: #2c3e50;
 }
 
-#startBtn, #submitBtn, #nextBtn {
-  margin-top: 1.5rem;
-  padding: 1.8rem 4rem;      
-  font-size: 1.6rem;       
-  font-weight: bold;
-  min-width: 200px;          
-  border: none;
-  background-color: steelblue;
+p {
+  font-size: 18px;
+  color: #34495e;
+}
+
+button {
+  background-color: #2980b9;
   color: white;
-  border-radius: 8px;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 25px;
+  font-size: 18px;
   cursor: pointer;
+  margin-top: 20px;
   transition: background-color 0.3s ease;
 }
 
-#startBtn:hover, #submitBtn:hover, #nextBtn:hover {
-  background-color: #1e4f8a;  
+button:hover:not(:disabled) {
+  background-color: #1c5980;
 }
 
 #options {
-  display: flex;
-  flex-direction: column;
-  align-items: center;  /* centers the labels container */
-  margin-top: 1rem;
+  margin-top: 20px;
+  text-align: left;
 }
 
-#options label {
-  display: flex;
-  align-items: center;
-  justify-content: center;  /* center the label content */
-  margin: 0.5rem 0;
-  width: 100%;
-  max-width: 400px;
+label {
+  display: block;
+  font-size: 17px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  user-select: none;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
   cursor: pointer;
 }
 
-#options input[type="radio"] {
-  margin-right: 10px;
-}
-
-#scoreCount {
-  margin-top: 1rem;
-  font-weight: bold;
-}
+#submit-btn:disabled {
+  background-color: #7f8c8d;
